@@ -1,0 +1,9 @@
+flags:
+  dark_mode: false
+  enable_deep_dive: true
+  include_darknet: false
+  legal_only: true
+
+targets:
+  - flag: include_darknet
+    condition: plan in ["team","enterprise"]
